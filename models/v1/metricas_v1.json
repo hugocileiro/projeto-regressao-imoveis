@@ -1,0 +1,35 @@
+{
+  "versao": "v1",
+  "data_treinamento": "2026-07-16 00:07:15",
+  "dataset": "kc_house_data.csv",
+  "variavel_alvo": "price",
+  "n_registros_treino": 16373,
+  "n_registros_teste": 4094,
+  "variaveis_preditoras": [
+    "bedrooms",
+    "bathrooms",
+    "sqft_living",
+    "sqft_lot",
+    "floors",
+    "waterfront",
+    "view",
+    "condition",
+    "grade",
+    "sqft_basement",
+    "yr_built",
+    "yr_renovated",
+    "lat",
+    "long",
+    "sqft_living15",
+    "sqft_lot15"
+  ],
+  "metricas": {
+    "MAE": 86101.61,
+    "MSE": 13071586516.49,
+    "RMSE": 114331.04,
+    "R2": 0.6861,
+    "R2_percentual": 68.61
+  },
+  "preco_medio_teste": 473893.42,
+  "erro_percentual_medio": 24.1
+}
